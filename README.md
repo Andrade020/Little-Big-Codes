@@ -1,5 +1,76 @@
 # Little-Big-Codes
 This is a compilation of very simple code that make your life much easier. It includes routine functions, macros, automation, etc
+
+# CodeSlangify 📝✨
+
+CodeSlangify is a Python-based tool that automatically abbreviates comments and docstrings in Python code, converting them into a more informal and slang-like style. It was originaly made for running with brasilian portuguese, and it works better that way, but  
+
+## Features 🚀
+
+- ✅ **Automatic slang conversion** for comments (`#`) and docstrings (`''' """`).
+- ✅ **Smart word abbreviation** based on length and vowels.
+- ✅ **Custom slang dictionary** that you can extend.
+- ✅ **User-friendly GUI** built with `Tkinter` for easy code processing.
+
+## Installation 🛠️
+Python installed, then install the required dependencies:
+
+```bash
+pip install tk
+```
+
+## How It Works ⚡
+
+1. Enter your Python code into the input box.
+2. Click **"Process Code"** to transform the comments and docstrings.
+3. View the modified code with shortened comments in the output box.
+
+## Example 🎯
+
+### Before:
+```python
+# This function calculates the sum of two numbers
+def add(a, b):
+    """
+    This function receives two integers and returns their sum.
+    """
+    return a + b
+```
+
+### After:
+```python
+# This func calc sum d 2 nums
+def add(a, b):
+    """
+    This func rcv 2 ints nd rtns thr sum.
+    """
+    return a + b
+```
+
+## Customizing the Slang Dictionary 🛠️
+
+You can add your own slang words to the `SLANG_DICT` dictionary in the script. Example:
+
+```python
+SLANG_DICT = {
+    "function": "func",
+    "calculate": "calc",
+    "integer": "int",
+}
+```
+
+## Running the Application ▶️
+
+Run the script:
+
+```bash
+python codeslangify.py
+```
+
+This will open a graphical interface where you can enter and process Python code.
+
+
+
 # SecureIdeas - Encrypted Idea Manager
 ### 📝 1. Simple Idea Manager (`Ideas.ahk`)
 This script allows you to quickly store ideas in a text file.
