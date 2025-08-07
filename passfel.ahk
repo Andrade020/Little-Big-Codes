@@ -1,3 +1,3 @@
 ^+f::
-SendRaw, felipe!@#$
+SendRaw, aiksdasdkiasd
 return
