@@ -13,9 +13,9 @@
 
     ; Define os caminhos fixos
     pythonPath := "C:\Users\Leo\AppData\Local\Programs\Python\Python312\python.exe"
-    pythonScriptPath := "C:\Users\Leo\Desktop\Portfolio\Little-Big-Codes\process_code_ahk.py"
-    inputFilePath := "C:\Users\Leo\Desktop\Portfolio\Little-Big-Codes\input.txt"
-    outputFilePath := "C:\Users\Leo\Desktop\Portfolio\Little-Big-Codes\output.txt"
+    pythonScriptPath := "C:\Users\Leo\Desktop\Porto_Real\Little-Big-Codes\process_code_ahk.py"
+    inputFilePath := "C:\Users\Leo\Desktop\Porto_Real\Little-Big-Codes\input.txt"
+    outputFilePath := "C:\Users\Leo\Desktop\Porto_Real\Little-Big-Codes\output.txt"
 
     ; Apaga arquivos anteriores, se existirem
     FileDelete, %inputFilePath%
@@ -57,3 +57,6 @@
     ; (Opcional) Restaura o clipboard original
     ; Clipboard := oldClip
 return
+
+
+

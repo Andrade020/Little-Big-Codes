@@ -1,0 +1,3 @@
+^+f::
+SendRaw, felipe!@#$
+return
