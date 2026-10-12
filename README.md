@@ -3,7 +3,7 @@ This is a compilation of very simple code that make your life much easier. It in
 
 # CodeSlangify 📝✨
 
-CodeSlangify is a Python-based tool that automatically abbreviates comments and docstrings in Python code, converting them into a more informal and slang-like style. It was originaly made for running with brasilian portuguese, and it works better that way, but  
+CodeSlangify is a Python-based tool that automatically abbreviates comments and docstrings in Python code, converting them into a more informal and slang-like style. It was originally made for Brazilian Portuguese, and it works better that way, but words that are not in the built-in dictionary (`SLANG_DICT`) are abbreviated at random (50% chance each), so it can also be used with other languages.
 
 ## Features 🚀
 
